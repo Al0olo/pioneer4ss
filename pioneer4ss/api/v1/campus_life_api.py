@@ -208,7 +208,7 @@ def report_urgent_case(**kwargs):
 
         # Notify relevant personnel
         frappe.enqueue(
-            'your_app.utils.notify_emergency_contacts',
+            'pioneer4ss.utils.notify_emergency_contacts',
             case=case.name,
             emergency_type=case.type
         )

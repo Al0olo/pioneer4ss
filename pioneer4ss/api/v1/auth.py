@@ -76,7 +76,7 @@ def register(email, full_name, password):
         user.save(ignore_permissions=True)
 
         # Send verification email
-        verification_url = f"{frappe.utils.get_url()}/api/method/your_app.api.verify_email?key={verification_key}"
+        verification_url = f"{frappe.utils.get_url()}/api/method/pioneer4ss.api.verify_email?key={verification_key}"
         
         frappe.sendmail(
             recipients=[email],

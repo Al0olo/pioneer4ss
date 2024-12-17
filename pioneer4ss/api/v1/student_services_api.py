@@ -269,7 +269,7 @@ def submit_admission_application(name):
 
         # Notify admissions office
         frappe.enqueue(
-            'your_app.utils.notify_admissions_office',
+            'pioneer4ss.utils.notify_admissions_office',
             application=application.name
         )
 

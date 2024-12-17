@@ -244,3 +244,14 @@ auth_hooks = [
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# website_route_rules = [
+#     {"from_route": "/api/docs", "to_route": "swagger.docs"},
+# ]
+
+# website_routes = [
+#     {"from_route": "/api/docs", "to_route": "/app"}
+# ]
+
+# website_redirects = [
+#     {"source": "/api/docs", "target": "/api/method/pioneer4ss.swagger.docs"}
+# ]

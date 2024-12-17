@@ -1,0 +1,165 @@
+openapi: 3.0.0
+info:
+  title: Campus Management API
+  version: 1.0.0
+  description: API documentation for Campus Management System
+servers:
+  - url: /api/method
+    description: Production server
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Error message
+    
+    LoginRequest:
+      type: object
+      required:
+        - usr
+        - pwd
+      properties:
+        usr:
+          type: string
+          description: Username/Email
+        pwd:
+          type: string
+          description: Password
+
+    LoginResponse:
+      type: object
+      properties:
+        message:
+          type: string
+        token:
+          type: string
+        user:
+          type: string
+        roles:
+          type: array
+          items:
+            type: string
+
+paths:
+  /pioneer4ss.api.login:
+    post:
+      summary: User Login
+      description: Authenticate user and get JWT token
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Successful login
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /pioneer4ss.university_api.create_university:
+    post:
+      summary: Create University
+      security:
+        - bearerAuth: []
+      tags:
+        - University
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - address
+                - country
+              properties:
+                name:
+                  type: string
+                  description: University name
+                address:
+                  type: string
+                  description: University address
+                country:
+                  type: string
+                  description: Country
+                website:
+                  type: string
+                  description: University website
+                established_year:
+                  type: integer
+                  description: Year established
+      responses:
+        '200':
+          description: University created successfully
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /pioneer4ss.education_api.create_course:
+    post:
+      summary: Create Course
+      security:
+        - bearerAuth: []
+      tags:
+        - Course
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+                - major
+                - title
+                - credits
+              properties:
+                name:
+                  type: string
+                  description: Course code
+                major:
+                  type: string
+                  description: Link to Major
+                title:
+                  type: string
+                  description: Course title
+                credits:
+                  type: integer
+                  description: Number of credits
+                description:
+                  type: string
+                  description: Course description
+                prerequisites:
+                  type: array
+                  items:
+                    type: string
+                  description: List of prerequisite courses
+      responses:
+        '200':
+          description: Course created successfully
+        '400':
+          description: Bad request
