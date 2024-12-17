@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 16:04:24.327648",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "title",
+  "bill_image",
+  "amount",
+  "employee",
+  "column_break_bnyu",
+  "status",
+  "for_student",
+  "student",
+  "bill_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "bill_image",
+   "fieldtype": "Attach Image",
+   "label": "Bill Image"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "By (Employee)",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_bnyu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Paid\nUnpaid",
+   "sort_options": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "for_student",
+   "fieldtype": "Check",
+   "label": "For Student?"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Student"
+  },
+  {
+   "fieldname": "bill_description",
+   "fieldtype": "Small Text",
+   "label": "Bill Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 16:07:18.471888",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "Bills",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}

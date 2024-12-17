@@ -10,9 +10,7 @@
   "basic_details_section",
   "thumbnail",
   "title",
-  "is_governmental",
-  "is_public",
-  "is_international",
+  "university_classification",
   "description",
   "column_break_gqjs",
   "order_in_malaysia",
@@ -196,27 +194,15 @@
    "label": "Application Deadlinies"
   },
   {
-   "default": "0",
-   "fieldname": "is_governmental",
-   "fieldtype": "Check",
-   "label": "Is Government Linked?"
-  },
-  {
-   "default": "0",
-   "fieldname": "is_public",
-   "fieldtype": "Check",
-   "label": "Is Public University?"
-  },
-  {
-   "default": "0",
-   "fieldname": "is_international",
-   "fieldtype": "Check",
-   "label": "Is International?"
+   "fieldname": "university_classification",
+   "fieldtype": "Select",
+   "label": "University Classification",
+   "options": "Public Univeristy"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 15:44:17.843655",
+ "modified": "2024-12-17 16:00:16.472401",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "University",
