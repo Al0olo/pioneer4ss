@@ -27,34 +27,40 @@
   {
    "fieldname": "manufacturer",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Manufacturer"
   },
   {
    "fieldname": "make",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Make"
   },
   {
    "fieldname": "model",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Model"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Car Status",
    "options": "Free\nTaken"
   },
   {
    "fieldname": "car_with",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Car With",
    "options": "Employee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 14:53:28.102374",
+ "modified": "2024-12-17 15:49:39.784812",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Cars",

@@ -56,6 +56,7 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "City"
   },
   {
@@ -81,12 +82,13 @@
   {
    "fieldname": "start_date",
    "fieldtype": "Datetime",
+   "in_list_view": 1,
    "label": "Event Start Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 14:12:18.017220",
+ "modified": "2024-12-17 15:47:07.730749",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Events",

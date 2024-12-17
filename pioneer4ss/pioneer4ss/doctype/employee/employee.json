@@ -31,21 +31,25 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Full Name"
   },
   {
    "fieldname": "email",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Email"
   },
   {
    "fieldname": "phone_number",
    "fieldtype": "Phone",
+   "in_list_view": 1,
    "label": "Phone Number"
   },
   {
    "fieldname": "team",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Team"
   },
   {
@@ -62,7 +66,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 14:40:03.656808",
+ "modified": "2024-12-17 15:49:19.063785",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Employee",

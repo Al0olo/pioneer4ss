@@ -41,6 +41,7 @@
   {
    "fieldname": "degree",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Degree",
    "options": "BSc\nBSc (Hons)\nMaster\nPhD\nMBA\nDiploma"
   },
@@ -51,12 +52,14 @@
   {
    "fieldname": "major",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Major",
    "options": "Major"
   },
   {
    "fieldname": "university",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "University",
    "options": "University"
   },
@@ -80,6 +83,7 @@
   {
    "fieldname": "fees",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Fees",
    "non_negative": 1
   },
@@ -101,7 +105,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 12:21:28.701806",
+ "modified": "2024-12-17 15:46:37.132424",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Course",

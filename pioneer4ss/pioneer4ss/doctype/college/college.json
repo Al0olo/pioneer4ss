@@ -39,6 +39,7 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Title",
    "reqd": 1
   },
@@ -69,11 +70,13 @@
   {
    "fieldname": "bsc_study_period",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Study Period (in InTakes)"
   },
   {
    "fieldname": "bsc_fees",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Study Fees"
   },
   {
@@ -120,6 +123,7 @@
   {
    "fieldname": "num_of_students",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Num. of Students"
   },
   {
@@ -161,7 +165,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 11:24:47.897308",
+ "modified": "2024-12-17 15:45:00.114671",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "College",

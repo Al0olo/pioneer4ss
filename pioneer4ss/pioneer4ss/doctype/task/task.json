@@ -9,6 +9,7 @@
   "title",
   "assigned_to",
   "status",
+  "deadline",
   "description"
  ],
  "fields": [
@@ -20,17 +21,20 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Title"
   },
   {
    "fieldname": "assigned_to",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Assigned To",
    "options": "Employee"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Task Status",
    "options": "Pending\nOn Hold\nIn Progress\nCompleted\nClosed"
   },
@@ -38,11 +42,17 @@
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Task Description"
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Deadline"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 15:00:52.970496",
+ "modified": "2024-12-17 15:50:13.822652",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Task",

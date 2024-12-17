@@ -46,6 +46,7 @@
   {
    "fieldname": "city",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "City"
   },
   {
@@ -67,7 +68,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 14:11:49.200190",
+ "modified": "2024-12-17 15:47:30.302200",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Best Spot",

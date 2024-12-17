@@ -86,6 +86,7 @@
   {
    "fieldname": "students_num",
    "fieldtype": "Int",
+   "in_list_view": 1,
    "label": "Num. of Students",
    "non_negative": 1
   },
@@ -153,6 +154,7 @@
   {
    "fieldname": "first_intake_start_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "First In Take start date"
   },
   {
@@ -179,6 +181,8 @@
   {
    "fieldname": "titlecity",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "City"
   },
   {
@@ -212,7 +216,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 11:56:36.651449",
+ "modified": "2024-12-17 15:44:17.843655",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "University",

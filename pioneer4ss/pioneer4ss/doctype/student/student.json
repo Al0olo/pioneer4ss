@@ -55,11 +55,13 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Full Name"
   },
   {
    "fieldname": "email",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Email"
   },
   {
@@ -69,6 +71,7 @@
   {
    "fieldname": "phone_number",
    "fieldtype": "Phone",
+   "in_list_view": 1,
    "label": "Phone Number"
   },
   {
@@ -203,13 +206,14 @@
   {
    "fieldname": "assigned_to",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Assigned To",
    "options": "Employee"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 14:58:08.566081",
+ "modified": "2024-12-17 15:48:10.445417",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Student",
