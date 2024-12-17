@@ -1,0 +1,150 @@
+{
+ "app": "Pioneer4Ss",
+ "charts": [],
+ "content": "[{\"id\":\"VK3GilOgNg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Pioneer</span>\",\"col\":12}},{\"id\":\"JsoE6IV6le\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"University\",\"col\":3}},{\"id\":\"G-I9WVpKwv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"College\",\"col\":3}},{\"id\":\"szIM6sd1xJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Major\",\"col\":3}},{\"id\":\"spFGrC8iwX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course\",\"col\":3}},{\"id\":\"YFmO-USXOt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"jnAd85KPQ5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student\",\"col\":3}},{\"id\":\"Ft4gN0o56y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event\",\"col\":3}},{\"id\":\"yWwU4HJZX6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cars\",\"col\":3}},{\"id\":\"glcurL5mp8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"lKC1M4Ci16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accommodation\",\"col\":3}},{\"id\":\"0c-wGMZ7u6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Best Spots\",\"col\":3}},{\"id\":\"2EPpAkx18C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Urgent Cases\",\"col\":3}},{\"id\":\"M3svJII3hB\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Urgent Cases\",\"col\":6}},{\"id\":\"XTayqeObnk\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Application\",\"col\":6}},{\"id\":\"i_0VB1diaD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Tasks\",\"col\":6}},{\"id\":\"p7YyL88JmD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Free Cars\",\"col\":6}}]",
+ "creation": "2024-12-17 15:24:49.332394",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "home",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Pioneer",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2024-12-17 15:38:38.707006",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "Pioneer",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Urgent Case",
+   "label": "Urgent Cases",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Admission Application",
+   "label": "New Application",
+   "quick_list_filter": "[[\"Admission Application\",\"application_status\",\"!=\",\"Closed\",false]]"
+  },
+  {
+   "document_type": "Task",
+   "label": "Recent Tasks",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Cars",
+   "label": "Free Cars",
+   "quick_list_filter": "[[\"Cars\",\"status\",\"=\",\"Free\",false]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "University",
+   "link_to": "University",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "College",
+   "link_to": "College",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Major",
+   "link_to": "Major",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Course",
+   "link_to": "Course",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Student",
+   "link_to": "Student",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Event",
+   "link_to": "Events",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Cars",
+   "link_to": "Cars",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Task",
+   "link_to": "Task",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Accommodation",
+   "link_to": "Accommodation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Best Spots",
+   "link_to": "Best Spot",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Urgent Cases",
+   "link_to": "Urgent Case",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Pioneer",
+ "type": "Workspace"
+}

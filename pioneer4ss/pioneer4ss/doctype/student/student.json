@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 14:14:53.626913",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "user",
+  "full_name",
+  "email",
+  "column_break_wpfh",
+  "phone_number",
+  "alt_phone_number",
+  "parent_details",
+  "parent_name",
+  "parent_phone_number",
+  "parent_alt_phone_number",
+  "column_break_mcaw",
+  "home_country",
+  "home_city",
+  "home_address",
+  "study_details_section",
+  "study_start_date",
+  "degree",
+  "column_break_tzca",
+  "university",
+  "major",
+  "course",
+  "accommodation_details_section",
+  "is_in_our_accommodation",
+  "accommodation",
+  "governmental_details_section",
+  "birthdate",
+  "column_break_jjpf",
+  "passport_image",
+  "passport_number",
+  "employee_section",
+  "assigned_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Account",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_wpfh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "alt_phone_number",
+   "fieldtype": "Phone",
+   "label": "Alt. Phone Number"
+  },
+  {
+   "fieldname": "parent_details",
+   "fieldtype": "Section Break",
+   "label": "Parent & Home Details"
+  },
+  {
+   "fieldname": "parent_name",
+   "fieldtype": "Data",
+   "label": "Parent Name"
+  },
+  {
+   "fieldname": "parent_phone_number",
+   "fieldtype": "Phone",
+   "label": "Parent Phone Number"
+  },
+  {
+   "fieldname": "parent_alt_phone_number",
+   "fieldtype": "Phone",
+   "label": "Parent Alt. Phone Number"
+  },
+  {
+   "fieldname": "column_break_mcaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "home_country",
+   "fieldtype": "Link",
+   "label": "Home Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "home_city",
+   "fieldtype": "Data",
+   "label": "Home City"
+  },
+  {
+   "fieldname": "home_address",
+   "fieldtype": "Data",
+   "label": "Home Address"
+  },
+  {
+   "fieldname": "study_details_section",
+   "fieldtype": "Section Break",
+   "label": "Study Details"
+  },
+  {
+   "fieldname": "study_start_date",
+   "fieldtype": "Date",
+   "label": "Study Start Date"
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Select",
+   "label": "Degree",
+   "options": "BSc\nMaster\nPhD\nMBA\nDiploma"
+  },
+  {
+   "fieldname": "column_break_tzca",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "University"
+  },
+  {
+   "fieldname": "major",
+   "fieldtype": "Link",
+   "label": "Major",
+   "options": "Major"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "accommodation_details_section",
+   "fieldtype": "Section Break",
+   "label": "Accommodation Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_in_our_accommodation",
+   "fieldtype": "Check",
+   "label": "Is in Our Accommodation?"
+  },
+  {
+   "fieldname": "accommodation",
+   "fieldtype": "Link",
+   "label": "Accommodation",
+   "options": "Accommodation"
+  },
+  {
+   "fieldname": "governmental_details_section",
+   "fieldtype": "Section Break",
+   "label": "Governmental Details"
+  },
+  {
+   "fieldname": "birthdate",
+   "fieldtype": "Date",
+   "label": "Birthdate"
+  },
+  {
+   "fieldname": "column_break_jjpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_image",
+   "fieldtype": "Attach Image",
+   "label": "Passport Image"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "employee_section",
+   "fieldtype": "Section Break",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 14:58:08.566081",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "Student",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}

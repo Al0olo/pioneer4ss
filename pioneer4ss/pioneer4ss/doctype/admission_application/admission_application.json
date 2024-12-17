@@ -1,0 +1,282 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 15:03:03.668782",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "student",
+  "assigned_to",
+  "application_status",
+  "student_details_section",
+  "full_name",
+  "phone_wfpz",
+  "nationality",
+  "educational_qualifications_section",
+  "documents",
+  "study_preferences_section",
+  "university",
+  "degree",
+  "college",
+  "column_break_sgjy",
+  "major",
+  "program",
+  "accommodation_details_section",
+  "accommodation",
+  "fees",
+  "location",
+  "visa_documents_section",
+  "passport",
+  "flight_ticket",
+  "national_id",
+  "column_break_fixa",
+  "visa",
+  "health_insurance",
+  "medical_checkup",
+  "arrival_details_section",
+  "arrival_date",
+  "airport",
+  "address",
+  "driver",
+  "financial_details_section",
+  "total_fees",
+  "paid_amount",
+  "payment_method"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Student"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "application_status",
+   "fieldtype": "Select",
+   "label": "Application Status",
+   "options": "Awaiting Response\nActive\nOn Hold\nClosed"
+  },
+  {
+   "fieldname": "student_details_section",
+   "fieldtype": "Section Break",
+   "label": "Student Details"
+  },
+  {
+   "fetch_from": "student.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "student.phone_number",
+   "fieldname": "phone_wfpz",
+   "fieldtype": "Phone",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "student.home_country",
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country",
+   "read_only": 1
+  },
+  {
+   "fieldname": "educational_qualifications_section",
+   "fieldtype": "Section Break",
+   "label": "Educational Qualifications"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Table",
+   "label": "Documents",
+   "options": "Educational Qualifications"
+  },
+  {
+   "fieldname": "study_preferences_section",
+   "fieldtype": "Section Break",
+   "label": "Study Preferences"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "University"
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Select",
+   "label": "Degree",
+   "options": "N/A\nBSc\nMaster\nPhD\nMBA\nDiploma"
+  },
+  {
+   "fieldname": "college",
+   "fieldtype": "Link",
+   "label": "College",
+   "options": "College"
+  },
+  {
+   "fieldname": "column_break_sgjy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "major",
+   "fieldtype": "Link",
+   "label": "Major",
+   "options": "Major"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Course"
+  },
+  {
+   "fieldname": "visa_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Visa Documents"
+  },
+  {
+   "fieldname": "passport",
+   "fieldtype": "Attach",
+   "label": "Passport"
+  },
+  {
+   "fieldname": "flight_ticket",
+   "fieldtype": "Attach",
+   "label": "Flight Ticket"
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Attach",
+   "label": "National ID"
+  },
+  {
+   "fieldname": "column_break_fixa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "visa",
+   "fieldtype": "Attach",
+   "label": "Visa"
+  },
+  {
+   "fieldname": "health_insurance",
+   "fieldtype": "Attach",
+   "label": "Health Insurance"
+  },
+  {
+   "fieldname": "medical_checkup",
+   "fieldtype": "Attach",
+   "label": "Medical Checkup"
+  },
+  {
+   "fieldname": "arrival_details_section",
+   "fieldtype": "Section Break",
+   "label": "Arrival Details"
+  },
+  {
+   "fieldname": "arrival_date",
+   "fieldtype": "Datetime",
+   "label": "Flight Ticket Arrival Date"
+  },
+  {
+   "fieldname": "driver",
+   "fieldtype": "Link",
+   "label": "Driver",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "financial_details_section",
+   "fieldtype": "Section Break",
+   "label": "Financial Details"
+  },
+  {
+   "fieldname": "total_fees",
+   "fieldtype": "Currency",
+   "label": "Total Fees"
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount"
+  },
+  {
+   "fieldname": "payment_method",
+   "fieldtype": "Select",
+   "label": "Payment Method",
+   "options": "Cash\nBank Transfer\nCard",
+   "sort_options": 1
+  },
+  {
+   "fieldname": "accommodation_details_section",
+   "fieldtype": "Section Break",
+   "label": "Accommodation Details"
+  },
+  {
+   "fieldname": "accommodation",
+   "fieldtype": "Link",
+   "label": "Accommodation",
+   "options": "Accommodation"
+  },
+  {
+   "fieldname": "fees",
+   "fieldtype": "Currency",
+   "label": "Fees"
+  },
+  {
+   "fetch_from": "accommodation.location",
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "airport",
+   "fieldtype": "Data",
+   "label": "Airport"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 15:23:55.440181",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "Admission Application",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

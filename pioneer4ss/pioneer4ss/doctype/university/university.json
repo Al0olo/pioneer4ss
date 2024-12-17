@@ -1,0 +1,241 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 10:42:03.865607",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "thumbnail",
+  "title",
+  "is_governmental",
+  "is_public",
+  "is_international",
+  "description",
+  "column_break_gqjs",
+  "order_in_malaysia",
+  "global_order",
+  "students_num",
+  "num_of_our_students",
+  "deadline",
+  "location_section",
+  "location",
+  "titlecity",
+  "address",
+  "study_programs_section",
+  "has_bsc",
+  "has_master",
+  "has_phd",
+  "study_fees_section",
+  "bsc_fees",
+  "master_fees",
+  "phd_fees",
+  "study_in_takes_section",
+  "intakes_count",
+  "first_intake_start_date",
+  "accommodation_section",
+  "has_internal_accommodation"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "thumbnail",
+   "fieldtype": "Attach Image",
+   "label": "University Thumbnail"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_gqjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_in_malaysia",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Order in Malaysia",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "global_order",
+   "fieldtype": "Int",
+   "label": "Order Globally",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "students_num",
+   "fieldtype": "Int",
+   "label": "Num. of Students",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "num_of_our_students",
+   "fieldtype": "Int",
+   "label": "Num. of Our Students"
+  },
+  {
+   "fieldname": "study_programs_section",
+   "fieldtype": "Section Break",
+   "label": "Study Programs"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_bsc",
+   "fieldtype": "Check",
+   "label": "Has BSc/Undergraduate Degree "
+  },
+  {
+   "default": "0",
+   "fieldname": "has_master",
+   "fieldtype": "Check",
+   "label": "Has Master Degree"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_phd",
+   "fieldtype": "Check",
+   "label": "Has PhD Degree"
+  },
+  {
+   "fieldname": "study_fees_section",
+   "fieldtype": "Section Break",
+   "label": "Study Fees"
+  },
+  {
+   "fieldname": "bsc_fees",
+   "fieldtype": "Currency",
+   "label": "Avg. Bsc Degree Fees",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "master_fees",
+   "fieldtype": "Currency",
+   "label": "Avg. Master Degree Fees",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "phd_fees",
+   "fieldtype": "Float",
+   "label": "Avg. Phd Degree Fees"
+  },
+  {
+   "fieldname": "study_in_takes_section",
+   "fieldtype": "Section Break",
+   "label": "Study In Takes"
+  },
+  {
+   "fieldname": "intakes_count",
+   "fieldtype": "Int",
+   "label": "Num. of In Takes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "first_intake_start_date",
+   "fieldtype": "Date",
+   "label": "First In Take start date"
+  },
+  {
+   "fieldname": "accommodation_section",
+   "fieldtype": "Section Break",
+   "label": "Accommodation"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_internal_accommodation",
+   "fieldtype": "Check",
+   "label": "Offers internal accommodation ?"
+  },
+  {
+   "fieldname": "location_section",
+   "fieldtype": "Section Break",
+   "label": "Location"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Map Location"
+  },
+  {
+   "fieldname": "titlecity",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "deadline",
+   "fieldtype": "Text Editor",
+   "label": "Application Deadlinies"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_governmental",
+   "fieldtype": "Check",
+   "label": "Is Government Linked?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_public",
+   "fieldtype": "Check",
+   "label": "Is Public University?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_international",
+   "fieldtype": "Check",
+   "label": "Is International?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 11:56:36.651449",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "University",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1
+}

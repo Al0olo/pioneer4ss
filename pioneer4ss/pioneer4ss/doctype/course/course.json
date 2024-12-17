@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 12:10:12.429006",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "thumbnail",
+  "title",
+  "degree",
+  "column_break_xcrr",
+  "major",
+  "university",
+  "college",
+  "course_details_section",
+  "num_of_intakes",
+  "fees",
+  "course_description",
+  "course_curriculum",
+  "course_accredation"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "thumbnail",
+   "fieldtype": "Attach Image",
+   "label": "Thumbnail"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "degree",
+   "fieldtype": "Select",
+   "label": "Degree",
+   "options": "BSc\nBSc (Hons)\nMaster\nPhD\nMBA\nDiploma"
+  },
+  {
+   "fieldname": "column_break_xcrr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "major",
+   "fieldtype": "Link",
+   "label": "Major",
+   "options": "Major"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "University"
+  },
+  {
+   "fieldname": "college",
+   "fieldtype": "Link",
+   "label": "College",
+   "options": "College"
+  },
+  {
+   "fieldname": "course_details_section",
+   "fieldtype": "Section Break",
+   "label": "Course Details"
+  },
+  {
+   "fieldname": "num_of_intakes",
+   "fieldtype": "Int",
+   "label": "Num. of In-Takes",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "fees",
+   "fieldtype": "Currency",
+   "label": "Fees",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "course_description",
+   "fieldtype": "Text Editor",
+   "label": "Course Description"
+  },
+  {
+   "fieldname": "course_curriculum",
+   "fieldtype": "Text Editor",
+   "label": "Course Curriculum"
+  },
+  {
+   "fieldname": "course_accredation",
+   "fieldtype": "Text Editor",
+   "label": "Course Accreditation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 12:21:28.701806",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "Course",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}

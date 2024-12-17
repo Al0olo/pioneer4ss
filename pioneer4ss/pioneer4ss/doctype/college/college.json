@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-17 11:04:04.359921",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "title",
+  "description",
+  "column_break_ezun",
+  "university",
+  "num_of_students",
+  "num_of_our_students",
+  "bsc_degree_section",
+  "bsc_study_period",
+  "bsc_fees",
+  "bsc_program_description",
+  "bsc_program_curriculum",
+  "master_degree_section",
+  "has_master",
+  "master_study_period",
+  "master_fees",
+  "master_program_description",
+  "master_program_curriculum",
+  "phd_degree_section",
+  "has_phd",
+  "phd_study_period",
+  "study_fees",
+  "phd_program_description",
+  "phd_program_curriculum"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ezun",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "University",
+   "options": "University",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bsc_degree_section",
+   "fieldtype": "Section Break",
+   "label": "BSc Degree"
+  },
+  {
+   "fieldname": "bsc_study_period",
+   "fieldtype": "Int",
+   "label": "Study Period (in InTakes)"
+  },
+  {
+   "fieldname": "bsc_fees",
+   "fieldtype": "Currency",
+   "label": "Study Fees"
+  },
+  {
+   "fieldname": "bsc_program_description",
+   "fieldtype": "Text Editor",
+   "label": "Program Description"
+  },
+  {
+   "fieldname": "bsc_program_curriculum",
+   "fieldtype": "Text Editor",
+   "label": "Program Purriculum"
+  },
+  {
+   "fieldname": "master_degree_section",
+   "fieldtype": "Section Break",
+   "label": "Master Degree"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_master",
+   "fieldtype": "Check",
+   "label": "Has Master Degree"
+  },
+  {
+   "fieldname": "master_study_period",
+   "fieldtype": "Int",
+   "label": "Avg. Study Period (in Months)"
+  },
+  {
+   "fieldname": "master_fees",
+   "fieldtype": "Currency",
+   "label": "Study Fees"
+  },
+  {
+   "fieldname": "master_program_description",
+   "fieldtype": "Text Editor",
+   "label": "Program Description"
+  },
+  {
+   "fieldname": "master_program_curriculum",
+   "fieldtype": "Text Editor",
+   "label": "Program Curriculum"
+  },
+  {
+   "fieldname": "num_of_students",
+   "fieldtype": "Int",
+   "label": "Num. of Students"
+  },
+  {
+   "fieldname": "num_of_our_students",
+   "fieldtype": "Int",
+   "label": "Num. of Our Students"
+  },
+  {
+   "fieldname": "phd_degree_section",
+   "fieldtype": "Section Break",
+   "label": "PhD Degree"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_phd",
+   "fieldtype": "Check",
+   "label": "Has PhD Degree?"
+  },
+  {
+   "fieldname": "phd_study_period",
+   "fieldtype": "Int",
+   "label": "Avg. Study Period (in Months)"
+  },
+  {
+   "fieldname": "study_fees",
+   "fieldtype": "Currency",
+   "label": "Study Fees"
+  },
+  {
+   "fieldname": "phd_program_description",
+   "fieldtype": "Text Editor",
+   "label": "Program Description"
+  },
+  {
+   "fieldname": "phd_program_curriculum",
+   "fieldtype": "Text Editor",
+   "label": "Program Curriculum"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 11:24:47.897308",
+ "modified_by": "Administrator",
+ "module": "Pioneer4Ss",
+ "name": "College",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}
