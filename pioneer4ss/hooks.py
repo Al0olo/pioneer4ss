@@ -231,9 +231,11 @@ app_license = "mit"
 # Authentication and authorization
 # --------------------------------
 
-# auth_hooks = [
-# 	"pioneer4ss.auth.validate"
-# ]
+auth_hooks = [
+	"pioneer4ss.api.v1.auth.verify_token"
+]
+
+
 
 # Automatically update python controller files with type annotations for this app.
 # export_python_type_annotations = True
