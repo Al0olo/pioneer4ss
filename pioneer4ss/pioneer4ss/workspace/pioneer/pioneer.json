@@ -1,7 +1,7 @@
 {
  "app": "Pioneer4Ss",
  "charts": [],
- "content": "[{\"id\":\"VK3GilOgNg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Pioneer</span>\",\"col\":12}},{\"id\":\"JsoE6IV6le\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"University\",\"col\":3}},{\"id\":\"G-I9WVpKwv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"College\",\"col\":3}},{\"id\":\"szIM6sd1xJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Major\",\"col\":3}},{\"id\":\"spFGrC8iwX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course\",\"col\":3}},{\"id\":\"YFmO-USXOt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"jnAd85KPQ5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student\",\"col\":3}},{\"id\":\"Ft4gN0o56y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event\",\"col\":3}},{\"id\":\"yWwU4HJZX6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cars\",\"col\":3}},{\"id\":\"glcurL5mp8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"lKC1M4Ci16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accommodation\",\"col\":3}},{\"id\":\"0c-wGMZ7u6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Best Spots\",\"col\":3}},{\"id\":\"2EPpAkx18C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Urgent Cases\",\"col\":3}},{\"id\":\"M3svJII3hB\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Urgent Cases\",\"col\":6}},{\"id\":\"XTayqeObnk\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Application\",\"col\":6}},{\"id\":\"i_0VB1diaD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Tasks\",\"col\":6}},{\"id\":\"p7YyL88JmD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Free Cars\",\"col\":6}}]",
+ "content": "[{\"id\":\"VK3GilOgNg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Pioneer</span>\",\"col\":12}},{\"id\":\"JsoE6IV6le\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"University\",\"col\":3}},{\"id\":\"G-I9WVpKwv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"College\",\"col\":3}},{\"id\":\"szIM6sd1xJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Major\",\"col\":3}},{\"id\":\"spFGrC8iwX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course\",\"col\":3}},{\"id\":\"YFmO-USXOt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"jnAd85KPQ5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student\",\"col\":3}},{\"id\":\"Ft4gN0o56y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event\",\"col\":3}},{\"id\":\"yWwU4HJZX6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cars\",\"col\":3}},{\"id\":\"glcurL5mp8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"lKC1M4Ci16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accommodation\",\"col\":3}},{\"id\":\"0c-wGMZ7u6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Best Spots\",\"col\":3}},{\"id\":\"2EPpAkx18C\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Urgent Cases\",\"col\":3}},{\"id\":\"O0KZd2CqRj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bills\",\"col\":4}},{\"id\":\"iv6uZEgDfj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Applications\",\"col\":4}},{\"id\":\"M3svJII3hB\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Urgent Cases\",\"col\":6}},{\"id\":\"XTayqeObnk\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"New Application\",\"col\":6}},{\"id\":\"i_0VB1diaD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent Tasks\",\"col\":6}},{\"id\":\"p7YyL88JmD\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Free Cars\",\"col\":6}}]",
  "creation": "2024-12-17 15:24:49.332394",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +15,7 @@
  "label": "Pioneer",
  "link_type": "DocType",
  "links": [],
- "modified": "2024-12-17 15:38:38.707006",
+ "modified": "2024-12-18 07:29:45.999373",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Pioneer",
@@ -51,8 +51,24 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "Bills",
+   "link_to": "Bills",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "University",
    "link_to": "University",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Applications",
+   "link_to": "Admission Application",
    "stats_filter": "[]",
    "type": "DocType"
   },

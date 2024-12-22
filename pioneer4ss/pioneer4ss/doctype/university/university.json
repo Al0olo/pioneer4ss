@@ -197,12 +197,12 @@
    "fieldname": "university_classification",
    "fieldtype": "Select",
    "label": "University Classification",
-   "options": "Public Univeristy"
+   "options": "Public University\nPrivate University\nGovernment Linked University\nInternational University"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 16:00:16.472401",
+ "modified": "2024-12-18 07:49:05.975171",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "University",
