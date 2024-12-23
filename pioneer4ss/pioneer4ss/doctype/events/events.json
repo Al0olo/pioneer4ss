@@ -9,6 +9,7 @@
   "thumbnail",
   "title",
   "start_date",
+  "university",
   "description",
   "event_location_section",
   "location",
@@ -84,11 +85,17 @@
    "fieldtype": "Datetime",
    "in_list_view": 1,
    "label": "Event Start Date"
+  },
+  {
+   "fieldname": "university",
+   "fieldtype": "Link",
+   "label": "University",
+   "options": "University"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 15:47:07.730749",
+ "modified": "2024-12-23 13:03:19.816532",
  "modified_by": "Administrator",
  "module": "Pioneer4Ss",
  "name": "Events",
